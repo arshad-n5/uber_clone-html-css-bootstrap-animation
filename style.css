@@ -1,0 +1,206 @@
+*{
+    font-family: "Montserrat Alternates", sans-serif;
+}
+nav{
+    width: 1905px;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+nav h5{
+    margin-top: 20px;
+    color: white;
+
+}
+.head1{
+    display: flex;
+
+}
+.head1 ul{
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+   
+}
+.head1 a{
+    color: white;
+    text-decoration: none;
+    
+}
+.head2 ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    margin-top: 20px;
+   
+}
+.head2 a{
+    color: white;
+    text-decoration: none;
+    
+}
+.section1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.section1 ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+.section1 a{
+    color: black;
+    text-decoration: none;
+
+}
+.image1{
+    width: 500px;
+    height: 500px;
+    
+    margin-right: 150px;
+}
+.section2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-left:250px;
+}
+.buttons{
+    margin-top: 150px;
+    
+}
+.loc{
+    position: relative;
+}
+.loc1{
+    position: absolute;
+    width: 400px;
+    height: 50px;
+   
+    border-radius: 10px;
+}
+.loc2{
+    position: absolute;
+    margin-top: 10px;
+    width: 400px;
+    height: 50px;
+    
+    border-radius: 10px;
+    top: 60px;
+}
+.line{
+    position: absolute;
+    width: 2px;
+    height: 69px;
+    background-color: black;
+    top: 25px;
+    left: 20px;
+    z-index: 1;
+}
+.section3{
+    margin-top: 50px;
+}
+.subbox{
+    height: 200px;
+    width: 400px;
+    background-color:#f3f3f3;
+    border-radius: 10px;
+}
+.mainbox{
+    margin: 10px 300px 10px 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.secondbox{
+    margin: 10px 0px 10px 325px;
+    
+}
+.subbox{
+    display: flex;
+}
+.section4{
+    margin-top: 50px;
+    margin-left: 50pxpx;
+}
+.box{
+    width: 800px;
+    height: 400px;
+    background:rgb(157, 205, 214);
+    border-radius: 10px;
+    margin-left: 240px;
+    
+    
+}
+.boximg{
+    display: flex;
+   
+ justify-content: space-around;
+}
+.benifits{
+    display:grid;
+    grid-template-columns: auto;
+    margin-left: 10px;
+    background-color: whitesmoke;
+    padding: 10px;
+    width: 500px;
+
+}
+.benifits div{
+    padding: 25px;
+}
+.box1{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 250px;
+
+}
+.section5{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.section6{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 150px;
+}
+.sticky{
+    margin-top: 10px;
+    width: 1905px;
+    height: 50px;
+    background-color:white;
+    position: sticky ;
+    top: 945px;
+    z-index: 1;
+}
+.section7{
+    margin-top: 50px;
+    margin-left: px;
+    background-color: black;
+    color: white;
+    height: 400px;
+}
+.section9{
+    background-color: #f3f3f3;
+    height: 300px;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 500px;
+}
+footer ul{
+    list-style: none;
+    
+}
+footer a{
+    color: white;
+   
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}

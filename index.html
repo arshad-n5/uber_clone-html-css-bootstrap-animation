@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uber_clone</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="assets/fav.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Parisienne&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="head1">
+          <h5>Uber</h5>
+
+          <ul>
+            <li><a href="">Ride</a></li>
+            <li><a href="">Drive</a></li>
+            <li><a href="">Buissiness</a></li>
+            <li><a href="">About</a></li>
+          </ul>
+        </div>
+        <div class="head2">
+          <ul>
+            <li>
+              <a href=""><i class="fa-solid fa-globe">EN</i></a>
+            </li>
+            <li><a href="">Help</a></li>
+            <li><a href="">Login</a></li>
+            <li>
+              <button
+                style="margin-top: -7px"
+                class="btn btn-light rounded-pill"
+              >
+                Sign up
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="section1">
+      <h4 style="font-weight: bolder; margin-left: 25px">Ride</h4>
+      <ul>
+        <li><a href="">Request a ride</a></li>
+        <li><a href="">Reverse a ride</a></li>
+        <li><a href="">See prices</a></li>
+        <li><a href="">Explore ride options</a></li>
+        <li><a href="">Airport rides</a></li>
+      </ul>
+    </section>
+    <section class="section2">
+      <div class="content1">
+        <h1 style="font-size: 60px; font-weight: bolder" class="mt-5">
+          Request a ride for
+        </h1>
+        <h1 style="margin-top: -20px; font-size: 60px; font-weight: bolder">
+          now or later
+        </h1>
+        <p class="mt-4">
+          <i style="color: green" class="fa-solid fa-tag"></i>Up to 50% off your
+          first 5 Uber rides. T&Cs apply.* <br />
+          *Valid within 15 days of signup.
+        </p>
+        <div class="loc">
+          <div
+            style="
+              display: flex;
+              justify-content: space-around;
+              background-color: #f3f3f3;
+            "
+            class="loc1"
+          >
+            <label style="margin-top: 10px"
+              ><i class="fa-solid fa-circle-dot"></i
+            ></label>
+            <input
+              style="width: 300px; border: none; background-color: #f3f3f3"
+              type="text"
+              placeholder="Enter your location"
+            />
+            <a style="margin-top: 10px; color: black" href=""
+              ><i class="fa-solid fa-location-arrow"></i
+            ></a>
+          </div>
+          <div class="line"></div>
+          <div
+            style="
+              display: flex;
+              justify-content: space-around;
+              background-color: #f3f3f3;
+            "
+            class="loc2"
+          >
+            <label
+              style="margin-top: 10px; margin-left: -40px; margin-right: 0px"
+              ><i class="fa-regular fa-square"></i
+            ></label>
+            <input
+              style="
+                width: 300px;
+                margin-left: -80px;
+                border: none;
+                background-color: #f3f3f3;
+              "
+              type="text"
+              placeholder="Enter your destination"
+            />
+          </div>
+        </div>
+
+        <div class="buttons">
+          <button class="btn btn-dark rounded">See price</button>
+          <button
+            style="margin-left: 10px; background-color: #f3f3f3"
+            class="btn btn-light rounded"
+          >
+            Schedule for later
+          </button>
+        </div>
+      </div>
+      <div class="image1">
+        <img
+          style="margin-left: -100px"
+          class="img-fluid"
+          src="./assets/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC91ZGFtLWFzc2V0cy80MmEyOTE0Ny1lMDQzLTQyZjktODU0NC1lY2ZmZmUwNTMyZTkucG5n.webp"
+          alt="image 1"
+        />
+      </div>
+    </section>
+    <section class="section3">
+      <h1 style="margin-left: 380px; margin-bottom: 10px">Suggestions</h1>
+      <div class="mainbox">
+        <div class="subbox">
+          <div class="contentcard">
+            <label class="mt-3 ms-2">Ride</label>
+            <p class="mt-1 ms-2">
+              Go anywhere with Uber. Request a ride, hop in, and go.
+            </p>
+            <button class="btn btn-light ms-2">Details</button>
+          </div>
+          <div class="imagecard">
+            <img src="./assets/top_bar_rides_3d.png" alt="" />
+          </div>
+        </div>
+        <div class="subbox">
+          <div class="contentcard">
+            <label class="mt-3 ms-2">Reserve</label>
+            <p class="mt-1 ms-2">
+              Reserve your ride in advance so you can relax on the day of your
+              trip.
+            </p>
+            <button class="btn btn-light ms-2">Details</button>
+          </div>
+          <div class="imagecard">
+            <img
+              class="img-fluid"
+              src="./assets/reserve_clock.png"
+              alt="reserve"
+            />
+          </div>
+        </div>
+        <div class="subbox">
+          <div class="contentcard">
+            <label class="mt-3 ms-2">Intercity</label>
+            <p class="mt-1 ms-2">
+              Get convenient, affordable outstation cabs anytime at your door.
+            </p>
+            <button class="btn btn-light ms-2">Details</button>
+          </div>
+          <div class="imagecard">
+            <img
+              class="img-fluid"
+              src="./assets/intercity.png"
+              alt="intercity"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="secondbox">
+        <div class="subbox">
+          <div class="contentcard">
+            <label class="mt-3 ms-2">Rentals</label>
+            <p class="mt-1 ms-2">
+              Request a trip for a block of time and make multiple stops.
+            </p>
+            <button class="btn btn-light ms-2">Details</button>
+          </div>
+          <div class="imagecard">
+            <img class="img-fluid" src="./assets/Hourly2021.png" alt="hourly" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section4">
+      <h1 style="margin-left: 340px">Plan for later</h1>
+      <div class="box1">
+        <div class="box">
+          <div class="boximg">
+            <div class="img1">
+              <h1 style="margin-top: 80px; margin-left: 5px">
+                Get your ride right <br />
+                with Uber Reserve
+              </h1>
+              <label style="margin-left: 10px">Choose date and time</label>
+              <div style="display: flex; justify-content: space-around">
+                <div>
+                  <label style="display: block; margin-left: -20px" for=""
+                    >Date</label
+                  >
+                  <input
+                    style="margin-left: -20px"
+                    type="date"
+                    placeholder=""
+                  />
+                </div>
+                <div>
+                  <label style="display: block" for="">time</label>
+                  <input style="display: block; width: 100px" type="time" />
+                </div>
+              </div>
+              <button
+                style="width: 299px; margin-top: 30px; margin-left: 10px"
+                class="btn btn-dark"
+              >
+                Next
+              </button>
+            </div>
+            <div class="img2">
+              <img
+                style="
+                  border-radius: 10px;
+                  margin-top: -27px;
+                  margin-right: -53px;
+                "
+                src="./assets/5152cc71-a5b0-4fbd-aeb8-bee896efcd48.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="boxcontent">
+          <div class="benifits">
+            <div><span style="font-weight: bold">Benifits</span></div>
+            <div>
+              <span style="text-align: center"
+                ><i class="fa-solid fa-calendar-days"></i>Choose your exact
+                pickup time up to 90 days in advance.</span
+              >
+            </div>
+            <div>
+              <span
+                ><i class="fa-solid fa-clock"></i>Extra wait time included to
+                meet your ride.</span
+              >
+            </div>
+            <div>
+              <span
+                ><i class="fa-solid fa-credit-card"></i>Cancel at no charge up
+                to 60 minutes in advance.
+              </span>
+            </div>
+            <div>
+              <a style="color: black; text-decoration: dotted underline" href=""
+                >see details</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="sticky">
+      <button style="width: 1904px" class="btn btn-dark">See prices</button>
+    </div>
+    <section class="section5">
+      <div style="display: flex">
+        <div>
+          <img src="./assets/1.webp" alt="" />
+        </div>
+        <div style="margin-left: 100px; margin-right: 500px">
+          <h1>
+            Ride with friends <br />
+            seamlessly
+          </h1>
+          <p style="text-align: justify">
+            Riding with friends just got easier: set up a group ride in the Uber
+            app, invite your friends, and arrive at your destination. Friends
+            who ride together save together.
+          </p>
+          <a style="color: black; text-decoration: dotted underline" href=""
+            >Learn more</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="section6">
+      <div style="display: flex; justify-content: space-around">
+        <div class="card" style="width: 18rem">
+          <img src="./assets/card1.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Ride options</h5>
+            <p class="card-text">
+              There’s more than one way to move with Uber, no matter where you
+              are or where you’re headed next
+            </p>
+            <a href="#" class="btn btn-dark">See ride options</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="./assets/card2.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">700+ airports</h5>
+            <p class="card-text">
+              You can request a ride to and from most major airports. Schedule a
+              ride to the airport for one less thing to worry about.
+            </p>
+            <a href="#" class="btn btn-dark">Search airports</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="./assets/card3.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">15,000+ cities</h5>
+            <p class="card-text">
+              The app is available in thousands of cities worldwide, so you can
+              request a ride even when you’re far from home.
+            </p>
+            <a href="#" class="btn btn-dark">Search cities</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section7">
+      <div style="display: flex; margin-left: 330px">
+        <div>
+          <h1 class="mt-5">
+            Looking for business <br />
+            solutions?
+          </h1>
+          <p style="text-align: justify">
+            Get information about how companies leverage Uber for <br />
+            Business:
+          </p>
+          <ul>
+            <li><a href=""></a>Business travel</li>
+            <li><a href=""></a>Courtesy rides</li>
+            <li>
+              <a href=""><a href=""></a>Meal programs </a>
+            </li>
+            <li><a href=""></a>Item delivery</li>
+          </ul>
+          <div>
+            <button class="btn btn-light rounded">Get Started</button>
+            <a
+              style="
+                color: white;
+                text-decoration: dottedunderline;
+                margin-left: 20px;
+              "
+              href=""
+              >Chect out solutions</a
+            >
+          </div>
+        </div>
+        <div>
+          <img
+            style="margin-left: 180px"
+            class="img-fluid mt-5"
+            src="./assets/comp.webp"
+            alt="image comp"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="section8">
+      <h1 style="margin-left: 320px" class="mt-3">
+        Frequently asked questions
+      </h1>
+      <div
+        style="margin-top: 10px; margin-left: 340px; width: 1200px"
+        class="accordion accordion-flush"
+        id="accordionFlushExample"
+      >
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne"
+              aria-expanded="false"
+              aria-controls="flush-collapseOne"
+            >
+              Can I have a lost item delivered to me?
+            </button>
+          </h2>
+          <div
+            id="flush-collapseOne"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Placeholder content for this accordion, which is intended to
+              demonstrate the <code>.accordion-flush</code> class. This is the
+              first item’s accordion body.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo"
+              aria-expanded="false"
+              aria-controls="flush-collapseTwo"
+            >
+              Can I rent a car using Uber?
+            </button>
+          </h2>
+          <div
+            id="flush-collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Placeholder content for this accordion, which is intended to
+              demonstrate the <code>.accordion-flush</code> class. This is the
+              second item’s accordion body. Let’s imagine this being filled with
+              some actual content.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo"
+              aria-expanded="false"
+              aria-controls="flush-collapseTwo"
+            >
+              Can I request a ride that picks up friends in different locations?
+            </button>
+          </h2>
+          <div
+            id="flush-collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Placeholder content for this accordion, which is intended to
+              demonstrate the <code>.accordion-flush</code> class. This is the
+              second item’s accordion body. Let’s imagine this being filled with
+              some actual content.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo"
+              aria-expanded="false"
+              aria-controls="flush-collapseTwo"
+            >
+              Can I request a taxi on Uber?
+            </button>
+          </h2>
+          <div
+            id="flush-collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Placeholder content for this accordion, which is intended to
+              demonstrate the <code>.accordion-flush</code> class. This is the
+              second item’s accordion body. Let’s imagine this being filled with
+              some actual content.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree"
+              aria-expanded="false"
+              aria-controls="flush-collapseThree"
+            >
+              Is there an Uber ride option for 5 people?
+            </button>
+          </h2>
+          <div
+            id="flush-collapseThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Placeholder content for this accordion, which is intended to
+              demonstrate the <code>.accordion-flush</code> class. This is the
+              third item’s accordion body. Nothing more exciting happening here
+              in terms of content, but just filling up the space to make it
+              look, at least at first glance, a bit more representative of how
+              this would look in a real-world application.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section9">
+      <h1 style="margin-left: 320px">Do more in the app</h1>
+      <div
+        style="
+          display: flex;
+          justify-content: space-around;
+          margin-left: 200px;
+          margin-right: 250px;
+        "
+      >
+        <div
+          style="
+            display: flex;
+            justify-content: space-evenly;
+            background-color: white;
+            border-radius: 10px;
+            width: 500px;
+          "
+        >
+          <div><img style="width: 200px" src="./assets/qr.webp" alt="" /></div>
+          <div>
+            <h1 class="mt-5 ms-2">Download the uber app</h1>
+            <p class="ms-2">Scan to donwload</p>
+          </div>
+        </div>
+        <div
+          style="
+            display: flex;
+            justify-content: space-evenly;
+            background-color: white;
+            border-radius: 10px;
+            width: 500px;
+          "
+        >
+          <div><img style="width: 200px" src="./assets/uber.svg" alt="" /></div>
+          <div><h1 class="mt-5 ms-2">Sign up to ride</h1></div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <h4 style="margin-left: 280px"><a href="">Uber</a></h4>
+      <h6 style="margin-left: 280px"><a href="">Visit Help Center</a></h6>
+
+      <div
+        style="display: flex; justify-content: space-evenly; margin-top: 80px"
+      >
+        <div>
+          <h5>Company</h5>
+          <ul>
+            <li><a href="">About us</a></li>
+            <li><a href="">our offering</a></li>
+            <li><a href="">Newsroom</a></li>
+            <li><a href="">Investors</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">careers </a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Products</h5>
+          <ul>
+            <li><a href="">Ride</a></li>
+            <li><a href="">Drive</a></li>
+            <li><a href="">Eat</a></li>
+            <li><a href="">Uber for buissiness</a></li>
+            <li><a href="">Uber freight</a></li>
+            <li><a href="">Gift Cards</a></li>
+            <li><a href="">Uber health</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Global citizenships</h5>
+          <ul>
+            <li><a href="">Safety</a></li>
+            <li><a href="">Sustainability</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Travel</h5>
+          <ul>
+            <li><a href="">Reserve</a></li>
+            <li><a href="">Airports</a></li>
+            <li><a href="">Cities</a></li>
+          </ul>
+        </div>
+      </div>
+      <div style="display: flex; justify-content: space-around">
+        <div style="margin-left: -170px">
+          <label><i class="fa-brands fa-square-linkedin"></i></label>
+          <label><i class="fa-brands fa-youtube"></i></label>
+          <label><i class="fa-brands fa-instagram"></i></label>
+          <label><i class="fa-brands fa-x-twitter"></i></label>
+        </div>
+        <div>
+          <label><i class="fa-solid fa-globe">EN</i></label>
+          <label class="ms-3"
+            ><i class="fa-solid fa-location-dot"></i>Thiruvananthapuram</label
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
